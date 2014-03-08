@@ -1,0 +1,14 @@
+Step-1 : Create the Maven project
+---------------------------------
+
+mvn archetype:generate -DgroupId=com.learn.selenium -DartifactId=Selenium \
+    -DarchetypeGroupId=com.learn \
+    -DarchetypeArtifactId=Mahen-Archetype-01 \
+    -DarchetypeVersion=1.0-SNAPSHOT
+	
+
+Step-2 : Verify the folders structure needed.
+---------------------------------------------
+
+Step-3 : So now initialize the project as a git repository.
+-----------------------------------------------------------
