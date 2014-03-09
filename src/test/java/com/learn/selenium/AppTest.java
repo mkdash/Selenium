@@ -1,4 +1,4 @@
-package $com.learn;
+package com.learn.selenium;
 
 import junit.framework.Test;
 import junit.framework.TestCase;
