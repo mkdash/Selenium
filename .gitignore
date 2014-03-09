@@ -6,6 +6,7 @@
 *.ear
 /target/**/*.properties
 /target/**/.gitignore
+/target/**/*.*
 
 # Eclipse environment
 *.project

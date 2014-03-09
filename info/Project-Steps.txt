@@ -42,4 +42,10 @@ Also updated the classes according to the correct project's package structure.
 Update the .gitignore file.
 
 
+Step-7 : Setup the Selenium stuffs in to the project.
+-----------------------------------------------------
+Update the POM file with selenium dependencies.
+Add a test class that can execute some selenium tests as an example.
+
+
 
