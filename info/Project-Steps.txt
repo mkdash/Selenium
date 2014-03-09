@@ -12,3 +12,20 @@ Step-2 : Verify the folders structure needed.
 
 Step-3 : So now initialize the project as a git repository.
 -----------------------------------------------------------
+cd /C/Z_Data_Mahendra/Projects/Repository/Selenium
+git  init
+
+Step-4 : Git repository at GIT-Hub
+----------------------------------
+Login to the the GIT-HUB site
+Create a git repository with name: Selenium.
+
+Step-5 : Git push
+-----------------
+git remote add origin https://github.com/mkdash/Selenium.git [Adding a link to your local machine]
+git remote -v [Verfiy that you have it now.]
+git push --set-upstream origin master [To set-up the upstream configuration: server and the branch] This dint work at first. So a pull was again needed. See bellow.
+git pull origin master [To pull the existing stuff from the GIT-HUB and merge it into your local branch. Need more understanding of this. TO-DO]
+git push --set-upstream origin master
+- Done -
+
