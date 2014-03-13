@@ -19,12 +19,16 @@ public class ReadMailTest {
 		driver.findElement(By.id("Email")).sendKeys("binayaranjan.jena");
 		driver.findElement(By.id("Passwd")).sendKeys("#emerge12345");
 		driver.findElement(By.id("signIn")).click();
-		  
-		driver.findElement(By.xpath("//span[contains(text(),'Indian Idol Voting Registration')]")).click();
+		
+		try{
+			driver.findElement(By.xpath("//span[b[text()='Indian Idol Voting Registration']]")).click();  
+		}catch(Throwable e){
+			driver.findElement(By.xpath("//span[contains(text(),'Indian Idol Voting Registration')]")).click();
+		}
 		  
 		driver.findElement(By.xpath("//span[contains(@class,'gbii')]")).click();
 		driver.findElement(By.id("gb_71")).click();
 		  
-		driver.close();
+		driver.quit();
   }
 }
