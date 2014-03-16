@@ -47,5 +47,21 @@ Step-7 : Setup the Selenium stuffs in to the project.
 Update the POM file with selenium dependencies.
 Add a test class that can execute some selenium tests as an example.
 
+OTHER Steps
+-----------
+Step-8 : Do the TestNG setup. [Shift delete the artifacts crating issues from local machine.]
+
+<dependency>
+  <groupId>org.testng</groupId>
+  <artifactId>testng</artifactId>
+  <version>6.1.1</version>
+  <scope>test</scope>
+</dependency>
+
+Step-9 : Move the test code from Binays Folder to correct folder in test.
+Step-10: Do clean install.
+
+Step-11: Import the project in eclipse and do run.
+
 
 
