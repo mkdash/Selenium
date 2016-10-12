@@ -11,3 +11,7 @@
 # Eclipse environment
 *.project
 *.classpath
+/target/
+
+/.gitignore
+*.settings/
