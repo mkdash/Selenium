@@ -12,6 +12,7 @@ public class LoginTest {
 	@Test
 	public void loginTest() {
 		// A simple test case - TBD
+		// Test Jenkins build trigger by a push.
 		driver = new FirefoxDriver();
 		driver.navigate().to("http://gmail.com");
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
